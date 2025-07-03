@@ -3,6 +3,9 @@
 This project demonstrates a working Site-to-Site IPsec VPN tunnel between a **PfSense firewall** and a **MikroTik router**. It connects two LAN networks securely through an encrypted IPsec tunnel.
 
 ---
+# Downloads
+PfSense: https://www.pfsense.org/download/
+MikroTik RouterOS: https://mikrotik.com/download
 
 ## 🧭 Network Overview
 
