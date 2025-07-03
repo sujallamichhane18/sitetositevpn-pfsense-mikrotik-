@@ -26,7 +26,7 @@ Establish a secure **IPsec VPN** tunnel between the two networks:
 
 ## 🖼️ Topology Diagram
 
-You can find the network diagram in the `sitetosite.png` 
+You can find the network diagram in the `sitetositevpn.png` 
 
 
 ---
