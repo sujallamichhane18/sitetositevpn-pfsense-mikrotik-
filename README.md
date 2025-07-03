@@ -73,7 +73,8 @@ On PfSense: Status > IPsec
 
 On MikroTik:
 ```
-Copy
-Edit
 /ip ipsec installed-sa print
 ```
+# 👤 Author
+Sujal Lamichhane
+For educational, lab, and testing use.
