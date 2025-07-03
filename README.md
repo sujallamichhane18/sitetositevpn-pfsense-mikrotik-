@@ -58,7 +58,7 @@ You can find the network diagram in the `sitetosite.png`
 
 ### 🔹 MikroTik IPsec
 
-```bash
+```
 /ip ipsec proposal
 add name=pfsense-proposal auth-algorithms=sha256 enc-algorithms=aes-256-cbc pfs-group=modp2048
 
@@ -86,7 +86,6 @@ On PfSense: Status > IPsec
 
 On MikroTik:
 ```
-bash
 Copy
 Edit
 /ip ipsec installed-sa print
