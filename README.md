@@ -77,4 +77,3 @@ On MikroTik:
 ```
 # 👤 Author
 Sujal Lamichhane
-For educational, lab, and testing use.
