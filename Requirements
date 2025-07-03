@@ -1,0 +1,5 @@
+Component	Requirement
+pfSense	Physical/Virtual device with pfSense installed (v2.4+ recommended)
+MikroTik	Router with RouterOS (v6.45+ preferred for stable IPsec features)
+Internet	Both sites must have stable internet connections
+Public IPs	At least one side (preferably both) must have a public static IP
