@@ -15,7 +15,7 @@ Allow devices in each LAN (PC1 and PC2) to communicate securely over an IPsec tu
 
 ## 🖼️ Topology Diagram
 
-See `diagrams/vpn-topology.png` for a visual reference.
+See `sitetositevpn.png` for a visual reference.
 
 ## ✅ Status
 
