@@ -62,23 +62,7 @@ You can find the network diagram in the `sitetositevpn.png`
 ### 🔹 MikroTik IPsec
 
 ```
-/ip ipsec proposal
-add name=pfsense-proposal auth-algorithms=sha256 enc-algorithms=aes-256-cbc pfs-group=modp2048
-
-/ip ipsec peer
-add address=192.168.110.155/32 exchange-mode=main secret=YourSecretKey \
-    local-address=192.168.110.10 profile=default
-
-/ip ipsec policy
-add src-address=192.168.30.0/24 dst-address=192.168.20.0/24 sa-dst-address=192.168.110.155 \
-    sa-src-address=192.168.110.10 tunnel=yes proposal=pfsense-proposal
-
-/ip firewall nat
-add chain=srcnat src-address=192.168.30.0/24 dst-address=192.168.20.0/24 action=accept
-
-/ip firewall filter
-add chain=input protocol=udp port=500,4500 action=accept
-add chain=input protocol=ipsec-esp action=accept
+All configuration settings in SitetoSiteVPN-Configuration(pfsense+firewall).docx
 ```
 ✅ Verification
 Ping from PC1 → PC2
