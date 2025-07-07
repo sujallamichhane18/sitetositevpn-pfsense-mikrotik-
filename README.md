@@ -41,7 +41,7 @@ You can find the network diagram in the `sitetositevpn.png & sitetositeprj.drawi
 **Phase 1:**
 - Remote Gateway: `192.168.110.10`
 - Authentication: Pre-Shared Key
-- IKE Version: IKEv1
+- IKE Version: IKEv2
 - Encryption: AES-256, SHA256, DH Group 14
 - Lifetime: 28800
 
